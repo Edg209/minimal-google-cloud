@@ -27,17 +27,17 @@ Pytest is not available in cloudshell by default. We will therefore need to inst
 
 We will clone the repository into the specified folder using this command:
 
-`git clone $P_PYTEST_SHELL_URL $P_PYTEST_SHELL_FOLDER`
+`git clone $P_PYTEST_SHELL_GIT_SOURCE $P_PYTEST_SHELL_GIT_FOLDER`
 
-This will create a folder `$P_PYTEST_SHELL_FOLDER` which we will clean up during the teardown
+This will create a folder `$P_PYTEST_SHELL_GIT_FOLDER` which we will clean up during the teardown.
 
 ### Calling pytest
 
 We are all ready to start running pytest on our repository. We can do so with this command:
 
-`python -m pytest $P_PYTEST_SHELL_FOLDER`
+`python -m pytest $P_PYTEST_SHELL_GIT_FOLDER`
 
-Calling `python -m` means that we want to call the main entry point of a python package. `pytest` is the name of the python package that we want to call. `$P_PYTEST_SHELL_FOLDER` is the name of the folder we want to call pytest in. Since we have just checkout out our repository to this folder, it means that we will run pytest on this repository.
+Calling `python -m` means that we want to call the main entry point of a python package. `pytest` is the name of the python package that we want to call. `$P_PYTEST_SHELL_GIT_FOLDER` is the name of the folder we want to call pytest in. Since we have just checkout out our repository to this folder, it means that we will run pytest on this repository.
 
 We should see an output like this:
 
