@@ -1,7 +1,7 @@
 # pytest-cloud-shell
 
 This project aims to run pytest on a python repository using the cloud shell.
-The python repository must be under git version control.
+The python repository must be under git version control. It must also be a simple project with no requirements.
 
 ### Setting up parameters
 
