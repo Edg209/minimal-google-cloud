@@ -83,5 +83,20 @@ We are all ready to start running pytest on our repository. We can do so with th
 
 `python -m pytest $P_PYTEST_REQUIREMENTS_SHELL_GIT_FOLDER`
 
-Calling `python -m` means that we want to call the main entry point of a python package. `pytest` is the name of the python package that we want to call. `$P_PYTEST_REQUIREMENTS_SHELL_GIT_FOLDER` is the name of the folder we want to call pytest in. Since we have just checkout out our repository to this folder, it means that we will run pytest on this repository.
+Calling `python -m` means that we want to call the main entry point of a python package. `pytest` is the name of the python package that we want to call. `$P_PYTEST_REQUIREMENTS_SHELL_GIT_FOLDER` is the name of the folder we want to call pytest in. Since we have checked out our repository to this folder, it means that we will run pytest on this repository.
 
+We should see an output like this:
+
+```commandline
+===================================================== test session starts ======================================================
+platform linux -- Python 3.9.2, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/edgrant209/photomosaic
+collected 21 items                                                                                                             
+
+photomosaic/test/test_image_distance.py ...........                                                                      [ 52%]
+photomosaic/test/test_output_image.py .                                                                                  [ 57%]
+photomosaic/test/test_output_layout.py ..                                                                                [ 66%]
+photomosaic/test/test_parse.py .......                                                                                   [100%]
+
+====================================================== 21 passed in 0.74s ======================================================
+```
