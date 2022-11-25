@@ -8,8 +8,8 @@ The python repository must be under git version control.
 We have two parameters that we will use for this project:
 
 ```shell
-export P_PYTEST_SHELL_GIT_SOURCE=https://github.com/Edg209/photomosaic.git
-export P_PYTEST_SHELL_GIT_FOLDER=photomosaic
+export P_PYTEST_SHELL_GIT_SOURCE=https://github.com/Edg209/fizzbuzz.git
+export P_PYTEST_SHELL_GIT_FOLDER=fizzbuzz
 ```
 
 The first parameter, `P_PYTEST_SHELL_GIT_SOURCE` is the python repository that we will be testing.

@@ -1,5 +1,5 @@
-export P_PYTEST_SHELL_GIT_SOURCE=https://github.com/Edg209/photomosaic.git
-export P_PYTEST_SHELL_GIT_FOLDER=photomosaic
+export P_PYTEST_SHELL_GIT_SOURCE=https://github.com/Edg209/fizzbuzz.git
+export P_PYTEST_SHELL_GIT_FOLDER=fizzbuzz
 
 ################################################################
 ################################################################
